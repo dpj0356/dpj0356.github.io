@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://dpj0356.github.io/"/>
   <updated>2019-09-05T03:44:20.483Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://dpj0356.github.io/</id>
   
   <author>
     <name>随心</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>测试</title>
-    <link href="http://yoursite.com/2019/09/05/%E6%B5%8B%E8%AF%95/"/>
-    <id>http://yoursite.com/2019/09/05/测试/</id>
+    <link href="https://dpj0356.github.io/2019/09/05/%E6%B5%8B%E8%AF%95/"/>
+    <id>https://dpj0356.github.io/2019/09/05/测试/</id>
     <published>2019-09-05T03:44:20.000Z</published>
     <updated>2019-09-05T03:44:20.483Z</updated>
     
