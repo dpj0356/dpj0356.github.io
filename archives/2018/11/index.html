@@ -1,561 +1,313 @@
 <!DOCTYPE html>
-
-
-
-  
-
-
-<html class="theme-next muse use-motion" lang="zh-Hans">
-<head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="theme-color" content="#222">
-
-
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
-
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
-
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="Hexo, NexT">
-
-
-
-
-
-  <link rel="alternate" href="/atom.xml" title="随心博客" type="application/atom+xml">
-
-
-
-
-
-
-<meta name="description" content="Dream Afar">
-<meta property="og:type" content="website">
-<meta property="og:title" content="随心博客">
-<meta property="og:url" content="http://yoursite.com/archives/2018/11/index.html">
-<meta property="og:site_name" content="随心博客">
-<meta property="og:description" content="Dream Afar">
-<meta property="og:locale" content="zh-Hans">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="随心博客">
-<meta name="twitter:description" content="Dream Afar">
-
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Muse',
-    version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-
-  <link rel="canonical" href="http://yoursite.com/archives/2018/11/">
-
-
-
-
-
-  <title>归档 | 随心博客</title>
-  
-
-
-
-
-
-
-
-
-</head>
-
-<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
-  
-  
+<html>
+  <head><meta name="generator" content="Hexo 3.8.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/algolia-min.css" integrity="sha256-HB49n/BZjuqiCtQQf49OdZn63XuKFaxcIHWf0HNKte8=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-HB49n/BZjuqiCtQQf49OdZn63XuKFaxcIHWf0HNKte8=" crossorigin="anonymous">
     
-  
-
-  <div class="container sidebar-position-left page-archive">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
-
-    <div class="custom-logo-site-title">
-      <a href="/" class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">随心博客</span>
-        <span class="logo-line-after"><i></i></span>
+    <meta charset="utf-8">
+    <meta name="baidu-site-verification" content="vvVgSQUzPU">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="">
+     
+    <meta name="description" content="Dream Afar">
+    <title>随心博客 - </title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/style/style.css">
+  </head>
+  <body>
+    <div id="fixed-menu">
+      <span class="iconfont icon-arrowup"></span>
+    </div>
+    <div id="progress">
+      <div class="line"></div>
+    </div>
+    <div id="head">
+      
+      <a href="/" class="">
+        首页
       </a>
+      
+      <a href="/archives" class="current">
+        归档
+      </a>
+      
+      <a href="/about" class="">
+        关于
+      </a>
+      
     </div>
-      
-        <p class="site-subtitle"></p>
-      
-  </div>
-
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
-  </div>
-</div>
-
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
-            
-            归档
-          </a>
-        </li>
-      
-
-      
-    </ul>
-  
-
-  
-</nav>
-
-
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
-
-      <span class="archive-page-counter">
-        
-        
-        
-          
-        
-        嗯..! 目前共计 1 篇日志。 继续努力。
-      </span>
-
-      
-
-        
-        
-        
-
-        
-          
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2018">2018</h1>
+    <div id="container">
+      <div id="main">
+        <div class="navbar">
+          <div class="toggle">
+            <span class="iconfont icon-menu toggle-icon"></span>
           </div>
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/11/08/hello-world/" itemprop="url">
-              
-                <span itemprop="name">Hello World</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2018-11-08T15:51:22+08:00" content="2018-11-08">
-          11-08
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-    </div>
-  </div>
-  
-  
-  
-
-  
-
-
-
-          </div>
-          
-
-
-          
-
-        </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    
-    <div class="sidebar-inner">
-
-      
-
-      
-
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-            
-              <p class="site-author-name" itemprop="name">随心</p>
-              <p class="site-description motion-element" itemprop="description">Dream Afar</p>
-          </div>
-
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives/">
-              
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
-
-            
-
-            
-
-          </nav>
-
-          
-            <div class="feed-link motion-element">
-              <a href="/atom.xml" rel="alternate">
-                <i class="fa fa-rss"></i>
-                RSS
-              </a>
+          <div class="search">
+            <div class="input-warp">
+              <!-- <span class="iconfont icon-sousuo"></span> -->
+              <input type="text" name="" class="st-default-search-input" id="site-search" placeholder="Search Keys">
             </div>
-          
-
-          
-
-          
-          
-
-          
-          
-
-          
-
+          </div>
         </div>
-      </section>
+        <div class="content">
+          <div id="searchbox">
+            <div id="powered-by"></div>
+          </div>
+          <div id="hits"></div>
 
-      
+          <div class="archives">
+    
+    
 
-      
 
+
+
+
+
+<section class="wrap">
+    <div class="meta">
+        <a href="/archives/2018" class="archive-meta">
+            2018
+        </a>
     </div>
-  </aside>
-
-
+    <div class="year">
         
-      </div>
-    </main>
+        <article class="item">
+            
+            
+            <div class="content">
+                <div class="title">
+                    <a href="/2018/11/08/hello-world/">
+                        Hello World
+                    </a>
+                </div>
+                <div class="meta">
+                    <span class="meta-item">
+                        <span class="iconfont icon-time-circle"></span>
+                        <span>2019/09/05</span>
+                    </span>
+                    
 
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">&copy; 2018 &mdash; <span itemprop="copyrightYear">2019</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">随心</span>
+                    
+                </div>
+            </div>
+        </article>
+        
+        
+    </div>
+</section>
 
   
+
+  <div class="paginator">
+        <span class="page-number current">1</span>
+  </div>
 </div>
 
-
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
-
-
-
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
-
-
-
-
-        
-
-
-
-
-
-
-
+        </div>
+        <footer>
+          <div class="copyright">
+            ©2019 <a href="http://yoursite.com">随心</a>. Powered by
+            <a href="https://hexo.io">Hexo</a> &
+            <a href="https://github.com/shixiaohu2206/hexo-theme-huhu">hexo-theme-huhu</a>
+          </div>
+          
+        </footer>
+      </div>
+      <div id="card-wrap">
+        <div class="card">
+          <div class="logo-widget">
+            <div class="author">
+              随心
+            </div>
+            <div class="logo" style="background-image: url('/images/logo.jpeg')"></div>
+          </div>
+          
+          <div class="follow-widget">
+            
+            <a href="https://github.com/shixiaohu2206" target="_block">
+              <span class="iconfont icon-github"></span>
+            </a>
+            
+            <a href="https://www.facebook.com/shi.xiaohu.5" target="_block">
+              <span class="iconfont icon-facebook"></span>
+            </a>
+            
+            <a href="https://www.instagram.com/shi_xiaohu/" target="_block">
+              <span class="iconfont icon-instagram"></span>
+            </a>
+             
+            <a href="/atom.xml" target="_block">
+              <span class="iconfont icon-rss"></span>
+            </a>
+            
+          </div>
+          
+          <div class="category-widget">
+            <div class="title">
+              <span>分类</span>
+              <span><a href="/archives">···</a></span>
+            </div>
+            <div class="list">
+              
+            </div>
+          </div>
+          <div class="tag-widget">
+            <div class="title">
+              <span>标签云</span>
+              <span><a href="">···</a></span>
+            </div>
+            <div class="tag-cloud">
+              
+            </div>
+          </div>
+        </div>
         
       </div>
-    </footer>
-
+    </div>
+    <!-- swiftype -->
     
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
-    
-
-  </div>
-
+    <!-- swiftype -->
+  </body>
   
-
+</html>
 <script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
+  window.addEventListener('load', function() {
+    ;(adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: '',
+      enable_page_level_ads: true
+    })
+
+    window.THEME_CONFIG = JSON.parse('{"title":"随心博客","subtitle":null,"description":"Dream Afar","author":"随心","language":"zh-CN","timezone":null,"url":"http://yoursite.com","root":"/","permalink":":year/:month/:day/:title/","permalink_defaults":null,"source_dir":"source","public_dir":"public","tag_dir":"tags","archive_dir":"archives","category_dir":"categories","code_dir":"downloads/code","i18n_dir":":lang","skip_render":null,"new_post_name":":title.md","default_layout":"post","titlecase":false,"external_link":true,"filename_case":0,"render_drafts":false,"post_asset_folder":false,"relative_link":false,"future":true,"highlight":{"enable":true,"auto_detect":false,"line_number":true,"tab_replace":null,"first_line_number":"always1"},"default_category":"uncategorized","category_map":null,"tag_map":null,"date_format":"YYYY-MM-DD","time_format":"HH:mm:ss","per_page":10,"pagination_dir":"page","theme":"huhu","deploy":{"type":"git","repository":{"github":"https://github.com/dpj0356/dpj0356.github.io.git"},"branch":"master"},"ignore":[],"keywords":null,"index_generator":{"per_page":10,"order_by":"-date","path":""},"archive_generator":{"per_page":10,"yearly":true,"monthly":true,"daily":false},"category_generator":{"per_page":10},"feed":{"type":"atom","limit":20,"hub":"","content":true,"content_limit":140,"content_limit_delim":"","path":"atom.xml"},"tag_generator":{"per_page":10},"marked":{"gfm":true,"pedantic":false,"sanitize":false,"tables":true,"breaks":true,"smartLists":true,"smartypants":true,"modifyAnchors":"","autolink":true},"server":{"port":4000,"log":false,"compress":false,"header":true},"menu":{"home":"/","archives":"/archives","about":"/about"},"logo":"/images/logo.png","categories_max":5,"tags_max":10,"favicon":"/images/favicon.ico","site_search":true,"rss":"/atom.xml","follow":{"github":"https://github.com/shixiaohu2206","facebook":"https://www.facebook.com/shi.xiaohu.5","instagram":"https://www.instagram.com/shi_xiaohu/"},"search_url":"/search.xml","site_icp":"","site_friends":{"房间里的小猫咪":"http://baidu.com"},"share":["weibo","weixin","qqkongjian","QQ","douban","facebook","twitter","google"],"cdn_module":{"av_min":"https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min","pjax":"https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min","jquery":"https://cdn.bootcss.com/jquery/3.4.1/jquery.min","confirm":"https://cdn.bootcss.com/jquery-confirm/3.3.4/jquery-confirm.min","fancybox":"https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min"},"baidu_push":true,"reward":{"weixin":"images/weixin.png","zhifubao":"images/zhifubao.png"}}')
+    window.loadJs = function(d, m, a) {
+      var c = document.getElementsByTagName('head')[0] || document.head || document.documentElement
+      var b = document.createElement('script')
+      b.defer = true
+      b.setAttribute('type', 'text/javascript')
+      b.setAttribute('charset', 'UTF-8')
+      b.setAttribute('async', 'true')
+      b.setAttribute('src', d)
+      m && b.setAttribute('data-main', '/scripts/app')
+      if (typeof a === 'function') {
+        if (window.attachEvent) {
+          b.onreadystatechange = function() {
+            var e = b.readyState
+            if (e === 'loaded' || e === 'complete') {
+              b.onreadystatechange = null
+              a()
+            }
+          }
+        } else {
+          b.onload = a
+        }
+      }
+      c.appendChild(b)
+    }
+    window.loadJs &&
+      window.loadJs('https://cdn.bootcss.com/require.js/2.3.6/require.min.js', true, function() {
+        require.config({
+          paths: {
+            // site
+            share: 'share',
+            search: 'search',
+            iconfont: 'iconfont',
+            util: 'util',
+            valine: ['cdn/Valine.min'],
+
+            // cdn
+            av: ['https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min', 'cdn/av-min'],
+            pjax: ['https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min', 'cdn/pjax.min'],
+            jquery: ['https://cdn.bootcss.com/jquery/3.4.1/jquery.min', 'cdn/jquery.min'],
+            confirm: ['https://cdn.bootcss.com/jquery-confirm/3.3.4/jquery-confirm.min', 'cdn/jquery.confirm.min'],
+            fancybox: ['https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min', 'cdn/jquery.fancybox.min']
+          },
+
+          map: {
+            '*': {
+              css: 'https://cdn.bootcss.com/require-css/0.1.10/css.min.js'
+            }
+          },
+
+          shim: {
+            fancybox: {
+              deps: ['css!https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.css']
+            },
+            confirm: {
+              deps: ['css!https://cdn.bootcss.com/jquery-confirm/3.3.4/jquery-confirm.min.css']
+            }
+          },
+
+          // 加载超时
+          waitSeconds: 3
+        })
+      })
+  })
+</script>
+
+<script>
+  ;(function() {
+    var bp = document.createElement('script')
+    var curProtocol = window.location.protocol.split(':')[0]
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js'
+    } else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js'
+    }
+    var s = document.getElementsByTagName('script')[0]
+    s.parentNode.insertBefore(bp, s)
+  })()
 </script>
 
 
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-
-  
-
-</body>
-</html>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@3.33.0/dist/algoliasearchLite.min.js" integrity="sha256-3Laj91VXexjTlFLgL8+vvIq27laXdRmFIcO2miulgEs=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@3.4.0/dist/instantsearch.production.min.js" integrity="sha256-pM0n88cBFRHpSn0N26ETsQdwpA7WAXJDvkHeCLh3ujI=" crossorigin="anonymous"></script>
+
+<script>
+  const searchClient = algoliasearch('UL5U4KF7NA', 'cb0ba3563c92ba60965c89cce8c69077')
+
+  const search = instantsearch({
+    indexName: 'Utone',
+    searchClient
+  })
+
+  search.addWidget(
+    instantsearch.widgets.searchBox({
+      container: '#searchbox'
+    })
+  )
+  search.addWidget(
+    instantsearch.widgets.poweredBy({
+      container: '#powered-by'
+    })
+  )
+
+  search.addWidget(
+    instantsearch.widgets.hits({
+      container: '#hits',
+      transformItems(items) {
+        console.log(items)
+        return items.map(item => ({
+          ...item
+          // name: item.name.toUpperCase()
+        }))
+      },
+      templates: {
+        item: `
+        <div>
+          <img src="{{image}}" align="left" alt="{{name}}" />
+          <div class="hit-name">
+              {{title}}
+            {{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}
+          </div>
+          <div class="hit-description">
+            {{#helpers.highlight}}{ "attribute": "description" }{{/helpers.highlight}}
+          </div>
+          <div class="hit-price">\${{price}}</div>
+        </div>
+      `
+      }
+    })
+  )
+
+  search.start()
+</script>
